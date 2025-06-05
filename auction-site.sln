@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\Aucti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{E1C7C984-1CA0-4C69-B2F5-22A99C6223CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "src\Contracts\Contracts.csproj", "{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{E1C7C984-1CA0-4C69-B2F5-22A99C6223CC}.Release|x64.Build.0 = Release|Any CPU
 		{E1C7C984-1CA0-4C69-B2F5-22A99C6223CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{E1C7C984-1CA0-4C69-B2F5-22A99C6223CC}.Release|x86.Build.0 = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|x64.Build.0 = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Debug|x86.Build.0 = Debug|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|x64.Build.0 = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{986A638C-792B-47E0-93F0-40120185338B} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{E1C7C984-1CA0-4C69-B2F5-22A99C6223CC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{76F176E1-5FE0-4061-82D0-5854D5C7AFE1} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
